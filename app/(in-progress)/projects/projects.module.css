@@ -1,0 +1,34 @@
+.projectsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .projectBlock {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .projectTitle {
+    margin: 10px 0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .projectDescription {
+    margin: 10px 0;
+    color: #333;
+  }
+  
