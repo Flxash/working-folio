@@ -1,14 +1,14 @@
+// next.config.js
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
     distDir: 'out',
     images: {
-        unoptimized: true,
+      unoptimized: true,
     },
-};
-
-const withVideos = require('next-videos')
-
-module.exports = withVideos()
-
-module.exports = nextConfig;
+  };
+  
+  const withVideos = require('next-videos');
+  
+  module.exports = withVideos(nextConfig);
